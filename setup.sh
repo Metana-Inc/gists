@@ -24,10 +24,12 @@ check_app_exists() {
 install_applications() {
   APPLICATIONS=(
     notion
+    clickup
     slack
     discord
-    google-chrome
-    clickup
+    arc
+    raycast
+    rectangle
   )
 
   echo "Installing applications..."
